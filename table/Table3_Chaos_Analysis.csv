@@ -1,0 +1,9 @@
+Province,Channel,HVG λ,R²,λ_max (Rosenstein),λ_max (Wolf),Chaos Strength
+Beijing,PC,0.291,0.431,0.027,0.171,Strong
+Beijing,Mobile,0.316,0.531,0.033,0.179,Strong
+Guangdong,PC,0.376,0.449,0.026,0.2,Strong
+Guangdong,Mobile,0.376,0.539,0.034,0.174,Strong
+Henan,PC,0.415,0.538,0.026,0.164,Weak
+Henan,Mobile,0.434,0.558,0.036,0.217,Weak
+Shanghai,PC,0.437,0.478,0.025,0.195,Weak
+Shanghai,Mobile,0.257,0.536,0.032,0.178,Strong

@@ -1,0 +1,5 @@
+Province,AE Error (%),VAE Error (%),Correlation (AE),Correlation (VAE)
+Beijing,20.6,32.6,0.91,0.821
+Guangdong,23.1,32.7,0.896,0.822
+Henan,22.0,32.7,0.902,0.821
+Shanghai,20.0,32.4,0.918,0.823
