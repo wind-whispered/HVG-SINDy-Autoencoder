@@ -428,7 +428,7 @@ def plot_degree_distribution(degree_dist, lambda_exp, r_squared, title, save_pat
     # 拟合区间
     k_fit = np.linspace(k_values.min(), k_values.max(), 200)
 
-    # ====== 关键改动1：用log域线性回归同时拟合截距A和lambda ======
+    # ====== 用log域线性回归同时拟合截距A和lambda ======
     x = k_values[mask].astype(float)
     y = np.log(p_values[mask].astype(float))
 
@@ -455,7 +455,7 @@ def plot_degree_distribution(degree_dist, lambda_exp, r_squared, title, save_pat
     ax2.semilogy(k_fit, p_fit, 'r-', linewidth=2,
                  label=f'Linear fit: λ={lambda_fit:.4f}, R²={r_squared:.4f}')
 
-    # ====== 关键改动2：随机参考线也画成指数曲线，并在中位k处对齐 ======
+    # ====== 随机参考线也画成指数曲线，并在中位k处对齐 ======
     lambda_random = np.log(3 / 2)
 
     k_ref = float(np.median(x))
@@ -3354,4 +3354,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
