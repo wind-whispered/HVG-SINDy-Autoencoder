@@ -10,5 +10,5 @@ python statistical_description.py
 
 Before running the training script `main.py`，make sure `hvg_sindy.py` exists.
 ```python
->python main.py
+python main.py
 ```
