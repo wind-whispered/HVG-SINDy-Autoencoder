@@ -24,7 +24,7 @@ Time series → HVG module → Autoencoder → SINDy (STLS) → Lyapunov / Phase
 **Key components:**
 - **HVG module** — constructs Horizontal Visibility Graphs and extracts 12-dimensional topological feature vectors via a sliding window; estimates chaos criterion λ vs. ln(3/2) ≈ 0.405
 - **Autoencoder** — fully connected encoder [12→64→32→16→3] with symmetric decoder; VAE variant included for comparison
-- **SINDy (STLS)** — discovers sparse discrete-time governing equations z(t+1) = f(z(t)) from a 48-term library (constant, linear, quadratic, trigonometric)
+- **SINDy (STLS)** — discovers sparse discrete-time governing equations $z(t+1) = f(z(t))$ from a 48-term library (constant, linear, quadratic, trigonometric)
 - **Baselines** — ARIMA, VAR, LSTM applied in the same latent space for fair comparison
 - **Chaos diagnostics** — Rosenstein and Wolf Lyapunov exponents, phase portraits, Poincaré sections, correlation dimension
 
