@@ -164,6 +164,16 @@ Representative governing equations for Beijing (3-dimensional latent space):
 | Guangdong | 0.398 | 0.111 | 0.354 | 38/48 | 11.9 |
 | Henan    | 0.222 | 0.115 | 0.287 | 38/48 | 12.8 |
 | Shanghai | 0.240 | 0.092 | 0.349 | 30/48 | 11.7 |
+The form of the governing equation is as follows:
+$$
+   \begin{bmatrix} z_1(t+1) \\ z_2(t+1) \\ z_3(t+1) \end{bmatrix} = C
+	+ A \underbrace{\mathbf{z}}_{\text{linear}}  + \underbrace{\begin{bmatrix}
+			\mathbf{z}^\top Q_1 \mathbf{z} \\
+			\mathbf{z}^\top Q_2 \mathbf{z} \\
+			\mathbf{z}^\top Q_3 \mathbf{z}
+	\end{bmatrix}}_{\text{quadratic}} +	D \underbrace{\mathbf{\phi}}_{\text{trigonometric}}, \text{where} \mathbf{z}=\begin{bmatrix} z_1 & z_2 & z_3 \end{bmatrix}^\top,\mathbf{\phi}=\begin{bmatrix} \sin z_1 & \cos z_1 & \sin z_2 & \cos z_2 & \sin z_3 & \cos z_3 \end{bmatrix}^\top
+$$
+
 
 ---
 
