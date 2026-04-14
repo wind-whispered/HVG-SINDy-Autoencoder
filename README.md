@@ -141,7 +141,6 @@ All outputs are saved to `./results/`:
 - `figure_*.png / .pdf` — all paper figures
 - `Table*.csv` — descriptive statistics, chaos metrics, AE performance, SINDy coefficients
 - `analysis_results.json` — full numerical results
-- `analysis_report.txt` — human-readable summary
 
 Individual scripts can also be run independently:
 
