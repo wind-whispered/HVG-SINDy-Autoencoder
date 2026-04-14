@@ -41,11 +41,7 @@ $$
 where
 
 $$
-\mathbf{z} = \begin{bmatrix} z_1 & z_2 & z_3 \end{bmatrix}^\top
-$$
-
-$$
-\boldsymbol{\phi} = \begin{bmatrix} \sin z_1 & \cos z_1 & \sin z_2 & \cos z_2 & \sin z_3 & \cos z_3 \end{bmatrix}^\top
+\mathbf{z} = \begin{bmatrix} z_1 & z_2 & z_3 \end{bmatrix}^\top , \boldsymbol{\phi} = \begin{bmatrix} \sin z_1 & \cos z_1 & \sin z_2 & \cos z_2 & \sin z_3 & \cos z_3 \end{bmatrix}^\top
 $$
 
 
