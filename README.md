@@ -86,7 +86,7 @@ $$
 
 ```
 HVG-SINDy-Autoencoder/
-├── data/                  # Baidu Index Excel files (not tracked by git)
+├── data/                  # Baidu Index Excel files
 │   ├── Beijing.xlsx
 │   ├── Guangdong.xlsx
 │   ├── Henan.xlsx
@@ -162,7 +162,7 @@ All outputs are saved to `./results/`:
 Individual scripts can also be run independently:
 
 ```bash
-# Temporal pattern visualization (Figure 2)
+# Temporal pattern visualization
 python data_sequence.py
 
 # Comparative analysis only (requires saved SINDy models from main.py)
