@@ -31,7 +31,7 @@ Time series → HVG module → Autoencoder → SINDy (STLS) → Lyapunov / Phase
 The form of the governing equation is as follows:
 
 $$
-\begin{bmatrix} z_1(t+1) \\ z_2(t+1) \\ z_3(t+1) \end{bmatrix} = C + A \underbrace{\mathbf{z}}_{\text{linear}} + \underbrace{\begin{bmatrix}
+\begin{bmatrix} z_1(t+1) \\ z_2(t+1) \\ z_3(t+1) \end{bmatrix} ^\top= C + A \underbrace{\mathbf{z}}_{\text{linear}} + \underbrace{\begin{bmatrix}
     \mathbf{z}^\top Q_1 \mathbf{z} \\
     \mathbf{z}^\top Q_2 \mathbf{z} \\
     \mathbf{z}^\top Q_3 \mathbf{z}
