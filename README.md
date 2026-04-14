@@ -95,7 +95,7 @@ HVG-SINDy-Autoencoder/
 ├── hvg_sindy.py           # Core: HVG construction, AE/VAE, SINDy, Lyapunov
 ├── comparison.py          # Baseline methods: ARIMA, VAR, LSTM
 ├── data_sequence.py       # temporal pattern visualization
-├── main.py                # Entry point — runs the full pipeline
+├── main.py                # Entry point
 └── requirements.txt
 ```
 
