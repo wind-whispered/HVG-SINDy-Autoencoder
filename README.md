@@ -183,12 +183,9 @@ Representative governing equations for Beijing (3-dimensional latent space):
 
 ---
 
-## Acknowledgements
+## Reference
 
-- Luque et al. (2009) — HVG chaos criterion and theoretical foundation
 - Brunton et al. (2016) — original SINDy framework ([PySINDy](https://github.com/dynamicslab/pysindy))
-- Rosenstein et al. (1993) and Wolf et al. (1985) — Lyapunov exponent estimation methods
-- Funding: 2025 Zhejiang Provincial Civil Affairs Policy Theory (No. ZMKT2025010)
 
 ---
 
