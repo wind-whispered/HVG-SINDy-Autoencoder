@@ -93,6 +93,7 @@ cd HVG-SINDy-Autoencoder
 
 # Install dependencies
 pip install -r requirements.txt
+pip install openpyxl
 ```
 
 **Requirements:** Python >= 3.8, PyTorch >= 2.0, CUDA optional.
