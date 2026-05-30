@@ -192,7 +192,7 @@ python comparison.py
              Identification},
   author  = {Kang, Yafeng and Li, Pengchao and Tang, Lu and Zhang, Chao},
   year    = {2026},
-  note    = {Preprint}
+  note    = {已接收}
 }
 ```
 
