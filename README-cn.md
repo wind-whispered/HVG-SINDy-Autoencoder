@@ -4,7 +4,6 @@
 [![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![数据: 2014–2024](https://img.shields.io/badge/数据-2014--2024-teal.svg)]()
-[![状态: 预印本](https://img.shields.io/badge/状态-预印本-orange.svg)]()
 
 本仓库为论文 **《基于水平可见图、自编码器与稀疏辨识的集成框架揭示太极拳公众关注度的混沌动力学》** 的官方实现代码。
 
