@@ -4,7 +4,6 @@
 [![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data: 2014–2024](https://img.shields.io/badge/data-2014--2024-teal.svg)]()
-[![Status: Preprint](https://img.shields.io/badge/status-preprint-orange.svg)]()
 [![中文](https://img.shields.io/badge/语言-中文-red.svg)](README-cn.md)
 
 Official implementation of **"Chaotic Dynamics of Tai Chi Public Attention Revealed by an Integrated Framework of Horizontal Visibility Graphs, Autoencoders, and Sparse Identification"**.
