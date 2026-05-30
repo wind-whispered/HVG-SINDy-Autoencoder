@@ -6,6 +6,7 @@
 [![Data: 2014–2024](https://img.shields.io/badge/data-2014--2024-teal.svg)]()
 [![Status: Preprint](https://img.shields.io/badge/status-preprint-orange.svg)]()
 
+[![中文](https://img.shields.io/badge/语言-中文-red.svg)](README-cn.md)
 Official implementation of **"Chaotic Dynamics of Tai Chi Public Attention Revealed by an Integrated Framework of Horizontal Visibility Graphs, Autoencoders, and Sparse Identification"**.
 
 Using daily Baidu Index data (2014–2024) from four Chinese provinces (Beijing, Shanghai, Guangdong, Henan), this pipeline characterizes low-dimensional chaotic attractors, discovers sparse governing equations, and benchmarks against ARIMA, VAR, and LSTM baselines.
